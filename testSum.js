@@ -1,4 +1,4 @@
-import Sum from '../sum'
+import Sum from './sum'
 
 const sum = require(Sum);
 
