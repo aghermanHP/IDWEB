@@ -1,7 +1,7 @@
 // Import the mount() method from the test utils
 // and the component you want to test
 import { mount } from '@vue/test-utils'
-import Counter from './counter'
+import Counter from '../counter'
 
 describe('Counter', () => {
   // Now mount the component and you have the wrapper
@@ -22,4 +22,5 @@ describe('Counter', () => {
     button.trigger('click')
     expect(wrapper.vm.count).toBe(1)
   })
-})
+});
+
